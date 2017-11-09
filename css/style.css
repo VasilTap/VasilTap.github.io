@@ -1,0 +1,26 @@
+@font-face {font-family: GothamProReg; src: url(../fonts/GothaProReg.otf);}
+@font-face {font-family: GothamProLight; src: url(../fonts/GothaProLig.otf);}
+
+
+
+article{
+	font-size: 36px;
+	color: #3d4044;
+	font-family: GothamProLight;
+	float: center;
+	padding-top: 316px;
+	padding-left: 280px;
+	
+}
+
+#box{
+	margin-top: 218px;
+	margin-right: 280px; 
+	height: 224px; 
+	width: 224px;
+	background-color: black;
+	float: right;
+}
+486
+388
+486
