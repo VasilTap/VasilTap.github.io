@@ -4,19 +4,8 @@
 	<meta name=""
 </head>
 <body>
-	
-	<script type="text/javascript">
-		// Create HTML Video Element to play the video
-		var video = document.createElement('video');
-		video.addEventListener('canplay', function (e) {
-		    document.body.appendChild( video );
-		});
-
-		video.src = 'Dir.mp4';
-		video.crossOrigin = 'anonymous';
-		video.loop = true;
-		video.play();
-	</script>
-
+	<video>
+		<source src="Dir.mp4" type="video/mp4">
+	</video>
 </body>
 </html>
